@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0PX;
+            padding: 0PX;
+        }
+        #header{
+            background-color: black;
+            color: white;
+            display: flex;
+            justify-content: space-between;
+        }
+        ul{
+            display: flex;
+            list-style: none;
+            
+        }
+        li{
+            margin: 20px;
+            cursor: pointer;
+            transition: all 1s;
+        }
+        li:hover{
+            font-size: 22pt;
+            color: brown;
+            background-color: white;
+            padding: 10px;
+            border-radius: 10px;
+        }
+        #image{
+            display: flex;
+            justify-content: space-around;
+            margin: 30PX;
+            padding: 30PX;
+        }
+        .main{
+            display: flex;
+            justify-content: space-around;
+        }
+        .course-card{
+            width: 2oopx;
+            height: 100px;
+            border: 1px solid gray;
+            margin: 50px;
+            box-shadow: 10px 10px 10px 5px gray;
+            transition: all 1s;
+            
+
+        }
+        .course-card:hover{
+           box-shadow: 2px 2px 2px 2px gray;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="header">
+        <div> <h1>Shri Dadaji Institute Of Technology And Science</h1> </div>
+        <div>
+        <ul >
+            <li>Home</li>
+            <li>About</li>
+            <li>Academics</li>
+            <li>T&P Cells</li>
+            <li>Committees</li>
+            <li>Contact</li>
+        </ul>
+        </div>
+     </div>
+    <div id="image">
+        <div><h1>I AM DATA SCIENC</h1></div>
+        <div><img src="sdits.jpg" style="border-radius: 900px; width: 400px; height: 400px;"></image></div>
+    </div>
+    <div class="main">
+        <div class="course-card"><h1>BTECH</h1></div>
+        <div class="course-card"><h1>MTECH</h1></div>
+        <div class="course-card"><h1>MBA</h1></div>
+    </div>
+ </div>
+ 
+</body>
+
+</html>
