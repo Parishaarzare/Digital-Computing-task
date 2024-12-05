@@ -1,0 +1,74 @@
+<html>
+    <head>
+        <title>task2</title>
+        <style>
+            *{ margin: 0px; padding: 0px;}
+            #header{
+                background-color: black;
+                color: white;
+               
+            }
+            ul{
+                display: flex;
+                justify-content: space-evenly;
+                margin: 30px;
+                padding: 30px;
+                list-style: none;
+                cursor: pointer;
+                transition: 2s;
+            }
+            li{
+                transform: all 1s;
+
+            }
+            li:hover{
+                box-shadow: 2px 2px 5px 2px gray;
+                background-color: red;
+                transition: all 1s;
+                font-size: large;
+            }
+
+            
+            #content{
+                display: flex;
+                justify-content: space-around;
+                
+                
+            }
+            .b{
+                display: flex;
+                justify-content: space-evenly;
+                margin: 30px;
+                padding: 30px;
+                
+                
+            }
+            .box{border: 3px solid black;
+                margin: 50px;
+                padding: 50px;
+                width: 200px;
+                height: 200px;
+                box-shadow: 6px 6px 5px 6px;
+               }  
+        </style>
+    </head>
+    <body>
+        <div id="header">
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>contact</li>
+                <li>My Work</li>
+            </ul>
+        </div>
+        <div id="content">
+            <div><h1>  I Am A <br>Data Scientist <br>your short summary</h1></div>
+            <div><img src="sdits.jpg" style="width: 400px; height: 400px; border-radius: 300px;"></div>
+        </div>
+        <div class="b">
+            <div class="box"><h1>html</h1></div>
+            <div class="box"><h1>css</h1></div>
+            <div class="box"><h1>java script</h1></div>
+        </div>
+        <marquee><img src="sdits2.png" style="height: 200px; width: 1000px; "><img src="sdits.jpg" alt=""></marquee>
+</html>
