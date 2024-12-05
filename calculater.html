@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        var x, y, result
+
+        function add() {
+            x = document.getElementById("num1").value
+            y = document.getElementById("num2").value
+            result = parseInt(x) + parseInt(y)
+            document.getElementById("result").value = result
+        }
+        function sub() {
+            x = document.getElementById("num1").value
+            y = document.getElementById("num2").value
+            result = parseInt(x) - parseInt(y)
+            document.getElementById("result").value = result
+        }
+        function div() {
+            x = document.getElementById("num1").value
+            y = document.getElementById("num2").value
+            result = parseInt(x) / parseInt(y)
+            document.getElementById("result").value = result
+        }
+        function mult() {
+            x = document.getElementById("num1").value
+            y = document.getElementById("num2").value
+            result = parseInt(x) * parseInt(y)
+            document.getElementById("result").value = result
+        }
+    </script>
+</head>
+
+<body class="flex justify-around h-100vh items-center">
+    <div class=" border-2 border-solid border-black m-6">
+        
+            <input id="num1" type="text" class="border-2 border-solid border-black m-3" placeholder="input1">
+            <br>
+            <input id="num2" type="text" class="border-2 border-solid border-black m-3" placeholder="input2">
+              <br>
+              <input id="result" type="number" class="border-2 border-black border-solid m-3" placeholder="result">
+        <div class="grid grid-cols-2 gap-2 m-9 text-center">
+            <button onclick="add()" class="text-white bg-black w-10 ">+</button>
+            <button onclick="sub()" class="text-white bg-black w-10">-</button>
+            <button onclick="div()" class="text-white bg-black  w-10">/</button>
+            <button onclick="mult()" class="text-white bg-black w-10">*</button>
+        </div>
+    </div>
+</body>
+
+</html>
