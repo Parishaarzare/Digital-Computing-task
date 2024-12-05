@@ -1,68 +1,67 @@
-var x,y,result
-function b(){
-    document.getElementById("screen").value += "("
-}
-function bk(){
-    document.getElementById("screen").value += ")"
-}
+var myinputbox =document.getElementById("calcinput");
 function input1(){
-    document.getElementById("screen").value += "1"
+    myinputbox.value += "1"
 }
 function input2(){
-    document.getElementById("screen").value += "2"
+    myinputbox.value += "2"
 }
 function input3(){
-    document.getElementById("screen").value += "3"
+    myinputbox.value += "3"
 }
 function input4(){
-    document.getElementById("screen").value += "4"
+    myinputbox.value += "4"
 }
 function input5(){
-    document.getElementById("screen").value += "5"
+    myinputbox.value += "5"
 }
 function input6(){
-    document.getElementById("screen").value += "6"
+    myinputbox.value += "6"
 }
 function input7(){
-    document.getElementById("screen").value += "7"
+    myinputbox.value += "7"
 }
 function input8(){
-    document.getElementById("screen").value += "8"
+    myinputbox.value += "8"
 }
 function input9(){
-    document.getElementById("screen").value += "9"
+    myinputbox.value += "9"
 }
 function dot(){
-    document.getElementById("screen").value += "."
-}
-function sin(){
-    document.getElementById("screen").value = Math.sin(document.getElementById("screen").value)
-}
-function cos(){
-    document.getElementById("screen").value = Math.cos(document.getElementById("screen").value)
-}
-function tan(){
-    document.getElementById("screen").value = Math.tan(document.getElementById("screen").value)
-}
-function zero(){
-    document.getElementById("screen").value += "0"
-}
-function divd(){
-    document.getElementById("screen").value += "/"
+    myinputbox.value += "."
 }
 function add(){
-    document.getElementById("screen").value += "+"
+    myinputbox.value += "+"
 }
-function muti(){
-    document.getElementById("screen").value += "*"
+function sub(){
+    myinputbox.value += "-"
 }
-function per(){
-    document.getElementById("screen").value += "%"
+function multi(){
+    myinputbox.value += "*"
+}
+function divd(){
+    myinputbox.value += "/"
 }
 function equal(){
-    document.getElementById("screen").value = eval(document.getElementById("screen").value)
+    myinputbox.value = eval(myinputbox.value)
 }
-
-
-
-
+function sin(){
+    myinputbox.value = Math.sin(myinputbox.value)
+}
+function cos(){
+    myinputbox.value = Math.cos(myinputbox.value)
+}
+function tan(){
+    myinputbox.value = Math.tan(myinputbox.value)
+}
+function sec(){
+    myinputbox.value = Math.sec(myinputbox.value)
+}
+function cosec(){
+    myinputbox.value = Math.cosec(myinputbox.value)
+}
+function cot(){
+    myinputbox.value = Math.cot(myinputbox.value)
+}
+function zero(){
+    myinputbox.value += "0"
+}
