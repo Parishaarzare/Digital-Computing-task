@@ -1,0 +1,42 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.header{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.bar{
+    display: flex;
+    justify-content: space-around;
+   margin-right: 20px;
+   
+}
+
+h4{
+    padding: 20px;
+    border-radius: 15px;
+    cursor: pointer;
+    
+    transition: all 1s;
+    
+}
+h4:hover{
+    
+    font-size: 15pt;
+}
+a{
+    text-decoration: none;
+}
+img{
+    width: 1500px;
+    height: 700px;
+    
+}
+.border{
+    border: 2px solid black;
+    height: 300px;
+    width: 300px;
+}
