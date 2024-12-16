@@ -5,29 +5,66 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
+        body{
+            background-color: rgba(0, 255, 255, 0.281);
+        }
         .main{
             display: flex;
+            justify-content: space-around;
         }
         .box{
-            border: 2px solid black;
+            border: 1px solid rgb(0, 255, 255, 0.421);
             margin: 20px;
-        }
-        img{
+            background-color: rgba(0, 255, 255, 0.421);
             width: 200px;
-            height: 200px;
+            height: 100px;
+            padding: 40px;
+            text-align: center;
+            box-shadow: 2px 2px 4px 4px cadetblue;
+            border-radius: 20px;
+            transition: all 3s;
         }
+        .box:hover{
+            box-shadow: 1px 1px 1px 1px cadetblue;
+            
+        }
+         a{
+            font-size: 30px;
+            text-decoration: none;
+            color: black;
+         }
+         h1{
+            color: rgba(2, 28, 2, 0.947);
+            font-size: 40px;
+            text-align: center;
+         }
     </style>
 </head>
 <body>
     <h1>Project</h1>
     <div class="main">
        <div class="box">
-        <h1><img src="Screenshot_13-12-2024_14144_127.0.0.1.jpeg" alt=""></h1>
+        
         <a href="Document.html">Facebook</a>
        </div>
         <div class="box">
-         <h1><img src="Screenshot_13-12-2024_142057_127.0.0.1.jpeg" alt=""></h1>
+         
          <a href="diwali.html">Diwali Poster</a>
+        </div>
+        <div class="box">
+        
+        <a href="linkin.html">Linkedin</a>
+        </div>
+    </div>
+        <div class="main">
+        <div class="box">
+            <a href="calc.html">Calculater</a>
+        </div>
+        <div class="box">
+            <a href="sdits.html">SDITS</a>
+        </div>
+        <div class="box">
+            <a href="task4.html">Poster</a>
         </div>
     </div>
 </body>
