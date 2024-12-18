@@ -58,12 +58,12 @@ img{
     header{
         background-color:#213555;
         color: white;
-        padding: auto;
+        
         display: flex;
         justify-content: space-between;
         position: fixed;
         width: 100%;
-        
+        padding-top:20px;
         margin-top: -25px; ;
     }
     nav ul{
@@ -198,7 +198,7 @@ img{
     input{
         padding: 8px;
         background-color: rgb(215, 214, 214);
-        margin: 20px;
+        margin: 30px;
         width: 400px;
         
     }
