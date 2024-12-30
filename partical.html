@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>from</title>
+</head>
+<body style="display: flex; justify-content: center; align-items: center; height: 100vh;">
+    <script>
+      function data(){
+        var a=document.getElementById("num1").value;
+        var b=document.getElementById("num2").value;
+        var c=document.getElementById("num3").value;
+        var d=document.getElementById("num4").value;
+        if(a==""||b==""||c==""||d=="")
+      {
+        alert("all field are mendatory");
+        return false;
+      }
+      else if(b.length<10||b.length<10)
+      {
+        alert("number should be 10 digit! Please enter valid numder");
+        return false;
+      }
+      
+      else if(c!=d)
+      {
+        alert("enter same password")
+      }
+      else{
+        true;
+      }
+        }
+    </script>
+
+    <div style="border: 2px solid black; padding: 20px; background: linear-gradient(45deg , rgb(0, 225, 255) , rgb(0, 162, 255));">
+        <h1 style="text-align: center; font-size: 40px;">Registration form</h1>
+        <form onsubmit="return data()"  action="abc.html">
+            <table style="font-size: 30px;">
+
+            <tr>
+                <td> <b>Username:</b> </td>
+                <td><input type="text" id="num1" style="padding: 10px;" placeholder="Enter username" ></td>
+            </tr>
+            <tr>
+                <td> <b>Contact:</b> </td>
+                <td><input type="number" id="num2" style="padding: 10px;" placeholder="Enter number"></td>
+            </tr>
+            <tr>
+                <td> <b>Password:</b> </td>
+                <td><input type="password" id="num3" style="padding: 10px;" placeholder="Enter password"></td>
+                
+            </tr>
+            <tr>
+                <td> <b>Confirm Password:</b> </td>
+                <td><input type="password" id="num4" style="padding: 10px;" placeholder="Enter same password"></td>
+            </tr>
+            </table>
+            <div style="text-align: center; margin: 15px;">
+            <button style="padding: 10px; background-color: rgb(76, 172, 67); font-size: 20px;"  >submit</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
