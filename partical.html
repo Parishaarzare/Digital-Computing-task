@@ -1,11 +1,19 @@
-<!DOCTYPE html>
+   <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>from</title>
+    <style>
+    *{
+      margin: 0%;
+      padding: 0%;
+    }
+  </style>
 </head>
-<body style="display: flex; justify-content: center; align-items: center; height: 100vh;">
+<body>
+  <header style="background-color: rgba(0, 0, 0, 0.795); color: white; padding: 20px; text-align: center; "> <h1> Registration form with validation </h1></header>
+  
     <script>
       function data(){
         var a=document.getElementById("num1").value;
@@ -33,34 +41,36 @@
       }
         }
     </script>
+     <div style="display: flex; justify-content: center; margin: 40px;">
+    <div style="border: 2px solid black; padding: 20px; background: linear-gradient(45deg , rgb(198, 211, 212) , rgb(190, 204, 212)); border-radius: 10px;">
 
-    <div style="border: 2px solid black; padding: 20px; background: linear-gradient(45deg , rgb(0, 225, 255) , rgb(0, 162, 255));">
-        <h1 style="text-align: center; font-size: 40px;">Registration form</h1>
+        <h1 style="text-align: center; font-size: 40px; margin: 5px;">Registration form</h1>
         <form onsubmit="return data()"  action="abc.html">
             <table style="font-size: 30px;">
 
             <tr>
                 <td> <b>Username:</b> </td>
-                <td><input type="text" id="num1" style="padding: 10px;" placeholder="Enter username" ></td>
+                <td><input type="text" id="num1" style="padding: 10px; border-radius: 5px;" placeholder="Enter username" ></td>
             </tr>
             <tr>
                 <td> <b>Contact:</b> </td>
-                <td><input type="number" id="num2" style="padding: 10px;" placeholder="Enter number"></td>
+                <td><input type="number" id="num2" style="padding: 10px; border-radius: 5px;" placeholder="Enter number"></td>
             </tr>
             <tr>
                 <td> <b>Password:</b> </td>
-                <td><input type="password" id="num3" style="padding: 10px;" placeholder="Enter password"></td>
+                <td><input type="password" id="num3" style="padding: 10px; border-radius: 5px;" placeholder="Enter password"></td>
                 
             </tr>
             <tr>
                 <td> <b>Confirm Password:</b> </td>
-                <td><input type="password" id="num4" style="padding: 10px;" placeholder="Enter same password"></td>
+                <td><input type="password" id="num4" style="padding: 10px; border-radius: 5px;" placeholder="Enter same password"></td>
             </tr>
             </table>
             <div style="text-align: center; margin: 15px;">
-            <button style="padding: 10px; background-color: rgb(76, 172, 67); font-size: 20px;"  >submit</button>
+            <button style="padding: 10px; background-color: rgb(76, 172, 67); font-size: 20px; border-radius: 5px;"  >submit</button>
             </div>
         </form>
     </div>
+  </div>
 </body>
 </html>
